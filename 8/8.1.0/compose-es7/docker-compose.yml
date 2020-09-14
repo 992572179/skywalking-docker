@@ -17,8 +17,8 @@
 version: '3.8'
 services:
   elasticsearch:
-    image: elasticsearch/elasticsearch:7.5.0
-    container_name: elasticsearch
+    image: elasticsearch:7.6.0
+    container_name: elasticsearch-oap
     restart: always
     ports:
       - 9201:9201
@@ -58,7 +58,7 @@ services:
       SW_STORAGE_ES_CLUSTER_NODES: elasticsearch:9201
   ui:
     image: apache/skywalking-ui:8.1.0
-    container_name: ui
+    container_name: skywalking-ui
     depends_on:
       - oap
     links:
