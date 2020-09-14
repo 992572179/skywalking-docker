@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Apache SkyWalking Docker Files
 
 <img src="http://skywalking.apache.org/assets/logo.svg" alt="Sky Walking logo" height="90px" align="right" />
@@ -19,3 +20,6 @@ The convenience images are published in docker hub.
 
 # License
 [Apache 2.0 License.](/LICENSE)
+=======
+# skywalking-docker
+>>>>>>> acef37c4fdffd03d9089cefdef5aa4f8976d2360
